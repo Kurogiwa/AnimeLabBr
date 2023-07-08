@@ -1,0 +1,6 @@
+:root
+{
+    --orange: #EC9369;
+    --dark-color: #333333;
+    background-color: var(--dark-color);
+}
