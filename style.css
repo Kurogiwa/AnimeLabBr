@@ -4,3 +4,36 @@
     --dark-color: #333333;
     background-color: var(--dark-color);
 }
+body
+{
+    margin: 0;
+}
+header
+{
+    height: 100px;
+}
+#logo
+{
+    position: relative;
+    height: 80px;
+    width: 232px;
+    background: url('backgrounds/hud_name 1.png') 30px bottom no-repeat;
+}
+#logo::before
+{content: '';
+    position: absolute;
+        top: 0px;
+        left: 0px;
+    width: 70px;
+    height: 80px;
+    background: url('icons/basic-japanesebobtail-icon 1.png') 0% 0% / cover no-repeat;
+}
+#logo::after
+{content: '';
+    position: absolute;
+        top: 15px;
+        right: 0px;
+    width: 50px;
+    height: 62px;
+    background: url('icons/fancy-smushface-icon\ 1.png') 0% 0% / cover no-repeat;
+}
